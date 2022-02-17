@@ -1,3 +1,5 @@
+package logic;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -14,7 +16,5 @@ public class NameSorter {
 
         Collections.sort(names);
 
-        System.out.println("List after the use of" +
-                " Collection.sort() :\n" + names);
     }
 }
